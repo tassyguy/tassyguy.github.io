@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
-import Home from './pages/Home'
-import About from './pages/About'
-//import Body from './pages/Body'
+import {Header, Body, Footer} from './layout/index'
+import {Home, About} from './pages/index'
 
 export default class Layout extends Component {
     render() {
         return (
-            <div>
-                <About/>
-                <p>Content is here</p>
-                {this.props.children}
-                <Home/>
-                
-            </div>
+            <>
+                <Header/>
+                <Body>
+                    <About/>
+                    <Home/>
+                </Body>
+                <Footer/>
+            </>
         )
     }
 }

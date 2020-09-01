@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import Layout from './components/Layout'
-
+import { Theme } from '@rmwc/theme'
 class App extends Component {
   state = {
     data: null
@@ -29,7 +29,9 @@ class App extends Component {
     return (
       <div className="App">
         <p className="App-intro">{this.state.data}</p>
-        <Layout></Layout>
+        <Theme>
+          <Layout/>
+        </Theme>
       </div>
     );
   }

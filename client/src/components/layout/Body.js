@@ -5,6 +5,8 @@ export default class Body extends Component {
         return (
             <div>
                 <p>Body Content goes here</p>
+                {this.props.children}
+                <p>test</p>
             </div>
         )
     }
