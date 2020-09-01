@@ -31,7 +31,10 @@
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "eslintConfig": {
-    "extends": ["plugin:prettier/recommended", "react-app"]
+    "extends": [
+      "plugin:prettier/recommended",
+      "react-app"
+    ]
   },
   "proxy": "http://localhost:4200/",
   "browserslist": {
