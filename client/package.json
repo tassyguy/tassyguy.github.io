@@ -36,11 +36,6 @@
       "react-app"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format"
-    }
-  },
   "proxy": "http://localhost:4200/",
   "browserslist": {
     "production": [
