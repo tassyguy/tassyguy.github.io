@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 //import logo from './logo.svg';
-import "./App.css"
+import "./App.scss"
 import Layout from "./components/Layout"
 import { Theme } from "@rmwc/theme"
 class App extends Component {

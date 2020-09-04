@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import "particles.js"
 
 export default class Particles extends Component {
   render() {
